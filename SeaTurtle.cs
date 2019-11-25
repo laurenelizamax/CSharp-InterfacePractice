@@ -3,7 +3,7 @@ namespace interfacePractices
 {
     class SeaTurtle : IWalking, ISwimming
     {
-        int MaximumDepth { get; } = 100;
+        public int MaximumDepth { get; } = 100;
 
         public void Run()
         {
